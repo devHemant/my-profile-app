@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body,
+html {
+  margin: 0;
+  padding: 0;
+  /* background: linear-gradient(to right, #ec2F48, #009FFF); */
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .signupImgContainer {
+    border-right: 1px solid #17a2b8;
+  }
+}
